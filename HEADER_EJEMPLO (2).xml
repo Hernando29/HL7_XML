@@ -16,7 +16,7 @@
     <recordTarget>
          <patientRole classCode="PAT">
          <patient classCode="PSN"/>
-             <id root="2.16.840.1.113883.19.57.0.52307571" extension="52307571">
+             <id root="2.16.840.1.113883.19.57.0.52307571" extension="52307571"/>
              <name>
                  <given>Mabel Zorayda</given>
                  <family>Avellaneda</family>
@@ -51,315 +51,11 @@
 
 
      <component typeCode="COMP" contextConductionInd='true'>
-       <structuredBody classCode='DOCBODY' moodCode='EVN'>
-        <h1>EVALUACION ENFERMEDAD PROFESIONAL CALICIADA POR ARP</h1>
-		<table  name="EVALUACION_ARP">
-
-			<thead>
-				<tr>
-  				<td><strong>Factor Riesgo</strong></td>
-  				<td><strong>Empresa</strong></td>
-  				<td><strong>Tiempo Exposicion</strong></td>
-				</tr>
-			</thead>
-
-			<tbody>
-		
-
-			<tr>
-  				<td>Biologico</td>
-  				<td></td>
-  				<td></td>
-			</tr>
-
-            <tr>
-              <td>CONTACTO CON ANIMALES</td>
-              <td>BANCO</td>
-              <td>0</td>
-            </tr>
-
-            <tr>
-              <td>CONTACTO CON MICROORGANISMOS</td>
-              <td>BANCO</td>
-              <td>0</td>
-            </tr>
-
-            <tr>
-              <td>CONTACTO CON FLUIDO CORPORAL</td>
-              <td>BANCO</td>
-              <td>0</td>
-            </tr>
-
-			<tr>
-  				<td>ELECTRICO</td>
-  				<td></td>
-  				<td></td>
-			</tr>
-
-            <tr>
-              <td>CONTACTO ELECTRICO DIRECTO</td>
-              <td>BANCO</td>
-              <td>0</td>
-            </tr>
-
-            <tr>
-              <td>CONTACTO ELECTRICO INDIRECTO</td>
-              <td>BANCO</td>
-              <td>0</td>
-            </tr>
-
-            <tr>
-              <td>CARGA ESTATICA</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-
-
-			<tr>
-  				<td>ECONOMICO</td>
-  				<td></td>
-  				<td></td>
-			</tr>
-
-            <tr>
-              <td>SENTADO PROLONGADO</td>
-              <td>BANCO</td>
-              <td>9</td>
-            </tr>
-
-            <tr>
-              <td>DE PIE PROLONGADO</td>
-              <td>BANCO</td>
-              <td>0</td>
-            </tr>
-
-            <tr>
-              <td>MOVIMIENTOS REPETITIVOS</td>
-              <td>BANCO</td>
-              <td>9</td>
-			</tr>
-
-            <tr>
-              <td>LEVANTAMIENTO DE CARGAS</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-				
-
-			<tr>
-  				<td>FISICO</td>
-  				<td></td>
-  				<td></td>
-			</tr>
-            <tr>
-              <td>CALOR</td>
-              <td>BANCO</td>
-              <td>0</td>
-            </tr>
-
-            <tr>
-              <td>FRIO</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-
-            <tr>
-              <td>ALTA ILUMINACION</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-
-            <tr>
-              <td>BAJA ILUMINACION</td>
-              <td>BANCO</td>
-              <td>9</td>
-			</tr>
-
-            <tr>
-              <td>PRESION</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-
-            <tr>
-              <td>RADIACION IONIZADA</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-
-            <tr>
-              <td>RADIACION NO IONIZADA</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-
-            <tr>
-              <td>RUIDO</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-            <tr>
-              <td>VIBRACION</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-
-			<tr>
-  				<td>FQC</td>
-  				<td></td>
-  				<td></td>
-			</tr>
-
-            <tr>
-              <td>INCENDIO</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-            <tr>
-              <td>EXPLOCION</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-
-			<tr>
-  				<td>LOCATIVO</td>
-  				<td></td>
-  				<td></td>
-			</tr>
-
-            <tr>
-              <td>ORDEN ASEO DEFICIENTE</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-            <tr>
-              <td>INSTALACIONES MAL ESTADO</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-			<tr>
-              <td>ALMACEN DEFICIENTE</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-            <tr>
-              <td>ELEMENTOS CORTANTES</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-
-			<tr>
-  				<td>MECANICOS</td>
-  				<td></td>
-  				<td></td>
-			</tr>
-
-            <tr>
-              <td>CAIDAS</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-            <tr>
-              <td>HERRAMIENTA MANUAL</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-			<tr>
-              <td>MAQUINAS</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-            <tr>
-              <td>PROYECCIONES</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-
-
-			<tr>
-  				<td>PSICOLABORAL</td>
-  				<td></td>
-  				<td></td>
-			</tr>
-
-            <tr>
-              <td>ATENCION AL PUBLICO</td>
-              <td>BANCO</td>
-              <td>9</td>
-            </tr>
-            <tr>
-              <td>MONOTONIA</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-			<tr>
-              <td>SOBRECARGA LABORAL</td>
-              <td>BANCO</td>
-              <td>2</td>
-			</tr>
-            <tr>
-              <td>TURNOS</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-			
-            <tr>
-              <td>ALTO RITMO LABOR</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-            <tr>
-              <td>CONFLICTO RELACIONES INTERPESONALES</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-
-			<tr>
-  				<td>PUBLICO</td><td></td><td></td>
-			</tr>
-
-            <tr>
-              <td>NIEBLAS</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-            <tr>
-              <td>HUMO</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-			<tr>
-              <td>POLVOS</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-        <tr>
-          <td>LIQUIDOS</td>
-          <td>BANCO</td>
-          <td>0</td>
-			</tr>
-
-            <tr>
-              <td>GASES VAPORES</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-
-            <tr>
-              <td>CONTACTO PRODUCTO QUIMICO</td>
-              <td>BANCO</td>
-              <td>0</td>
-			</tr>
-	
-
-			<tr><td>QUIMICO</td><td></td><td></td></tr>
-            <tr><td>TERRORISMO</td><td>BANCO</td><td>0</td></tr>
-			<tr><td>SECUESTRO</td><td>BANCO</td><td>0</td></tr>
-            <tr><td>DEPORTIVO</td><td>BANCO</td><td>0</td></tr>
-
-			</tbody>
+       
+    <structuredBody classCode='DOCBODY' moodCode='EVN'>
+ 
 		  
-                </table>
+
 	  
 	  <section classCode="DOCSECT">
 	    <code code= "54116-9" codeSystemName="LOINC" displayName="History of diseases"></code> 
@@ -491,8 +187,81 @@
 
 	  </section>
 
-    
-
+      <component typeCode="COMP" contextConductionInd="true">
+        <title>ESTILOS DE VIDA</title>
+         <section classCode="DOCSECT">
+           <code code= "72166-2" codeSystemName="LOINC" displayName="Tobacco smoking status"></code> 
+           <title>TABAQUISMO</title>
+           <text mediaType="text/x-hl7-text+xml">
+             <table>     
+               <tbody>
+                 <tr>
+                   <td>TABAQUISMO</td><td>NO</td><td>TIPO TABAQUISMO:</td><td> </td>
+                 </tr>
+                 <tr>
+                   <td>AÑOS TABAQUISMO:</td><td> </td><td> </td><td> </td>
+                 </tr>
+                 <tr>
+                   <td>EX FUMADOR:</td><td>SI</td><td>DEJO DE FUMAR (AÑOS):</td><td>>10</td>
+                 </tr>                             
+               </tbody>
+             </table>    
+           </text>   
+         </section>
+        
+        <section classCode="DOCSECT">
+          <code code= "69721-9" codeSystemName="LOINC" displayName="Do you ever drink alcohol - including beer or wine"></code> 
+          <title>LICOR</title>
+          <text mediaType="text/x-hl7-text+xml">
+            <table>     
+              <tbody>
+                <tr>
+                  <td>Licor</td><td>NO</td><td>Tipo de Licor:</td><td> </td>
+                </tr>                           
+              </tbody>
+            </table>    
+          </text>   
+        </section>
+        
+        <section classCode="DOCSECT">
+          <code code= "74204-9" codeSystemName="LOINC" displayName="	
+            Drug use [NTDS]"></code> 
+          <title>DROGADICCION</title>
+          <text mediaType="text/x-hl7-text+xml">
+            <table>     
+              <tbody>
+                <tr>
+                  <td>Drogadiccion</td><td>NO</td><td>Tipo de droga:</td><td> </td>
+                </tr>                       
+              </tbody>
+            </table>    
+          </text>   
+        </section>
+        
+        <section classCode="DOCSECT">
+          <code code= "73985-4" codeSystemName="LOINC" displayName="Exercise activity"></code> 
+          <title>HABITOS DE EJERCICIO</title>
+          <text mediaType="text/x-hl7-text+xml">
+            <table>     
+              <tbody>
+                <tr>
+                  <td>Habitos de ejercicio</td><td>SI</td><td>Cual?:</td><td>GIMNASIO</td>
+                </tr>                       
+                <tr>
+                  <td>Frecuencia Dias a la semana</td><td>3-4</td>
+                </tr>
+              </tbody>
+            </table>    
+          </text>   
+        </section>
+        
+        
+        
+        
+      
+      </component>
+      
+      
 
 
 
