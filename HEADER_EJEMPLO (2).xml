@@ -443,7 +443,8 @@
           
         </section>
       </component>
-=======
+      
+      <component typeCode="COMP" contextConductionInd="true">
             
       <section classCode="DOCSECT">
         <code code= "45645-9" codeSystemName="LOINC" displayName="Peripheral vascular disease"></code> 
@@ -474,7 +475,6 @@
             <tr> <td>ZOONOSIS</td> <td>No</td> <td></td>  </tr>
             <tr> <td>ADMIDALITIS CRONICA</td> <td>No</td> <td></td>  </tr>
             <tr> <td>OTRAS</td> <td>No</td> <td></td>  </tr>
->>>>>>> 0d3598715351bad20e5dbb40c38c8412225f39ce
 
             </tbody>
             </table>
@@ -519,21 +519,6 @@
               </table>
         </section>
 
-        <section classCode="DOCSECT">
-                <code code= "8716-3" codeSystemName="LOINC" displayName="VITAL SIGNES"></code> 
-                <title>SIGNOS VITALES</title>
-                <text mediaType="text/x-hl7-text+xml">
-                  <table>
-                    <thead>
-                        <tr><td>Peso (Kg)</td><td>IMC:</td><td>T.A</td><td> Estatura(mts)</td><td>Pulso</td><td>F.R</td></tr>
-                    </thead>
-                    <tbody>
-                        <tr><td>59</td><td>25,54</td><td>150/100</td><td>1,52</td><td>66</td><td>16</td></tr>
-                    </tbody>
-                  </table>            
-                </text>                  
-        </section>       
-            
 
  </component>
       
