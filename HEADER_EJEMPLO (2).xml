@@ -18,9 +18,9 @@
          <patient classCode="PSN"/>
              <id root="2.16.840.1.113883.19.57.0.52307571" extension="52307571"/>
              <name>
-                 <given>Mabel Zorayda</given>
-                 <family>Avellaneda</family>
-                 <family>Mendoza</family>
+  <given>Mabel Zorayda</given>
+  <family>Avellaneda</family>
+  <family>Mendoza</family>
              </name>
              <administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.0" diplayName="Femenino"/>
              <birth value="19760124"/>
@@ -39,10 +39,10 @@
          <id extension="79903977" root="2.16.840..113883.19.57.0.79903977"/>
          <assignedPerson>
              <name>
-                 <given>John</given>
-                 <given>Wilson</given>
-                 <family> Sanchez <family/>
-                 <family>Zuniga</family>             
+  <given>John</given>
+  <given>Wilson</given>
+  <family> Sanchez <family/>
+  <family>Zuniga</family>             
              </name>
              <representedOrganization root="2.16.840.1.113883.19.5"/>
              <name>MEDISH S.A.S</name>
@@ -61,23 +61,23 @@
 	    <code code= "54116-9" codeSystemName="LOINC" displayName="History of diseases"></code> 
 	    <title>HISTORIA FAMILIAR</title>
 	    <text mediaType="text/x-hl7-text+xml">   
-                 <table name="HISTORIA FAMILIAR">
-                     <thead>
-                       <tr> <th>Patologia</th> <th>Presenta</th> <th>Descripcion</th><th>Parentesco Familiar</th></tr>
-                     </thead>
-                      <tbody>
-                                   <tr> <td>Otros</td> <td>No</td> <td></td> <td></td> </tr>
-                                   <tr> <td>Digstivo</td> <td>No</td> <td></td> <td></td> </tr>
-                                   <tr> <td>mentales</td> <td>No</td> <td></td> <td></td> </tr>
-                                   <tr> <td>Neurologicos</td> <td>No</td> <td></td> <td></td> </tr>
-                                   <tr> <td>Reumatologicos</td> <td>No</td> <td></td> <td></td> </tr>
-                                   <tr> <td>TBC</td> <td>No</td> <td></td> <td></td> </tr>
-                                   <tr> <td>Respiratorios</td> <td>No</td> <td></td> <td></td> </tr>
-                                   <tr> <td>Cancer</td> <td>No</td> <td></td> <td></td> </tr>
-                                   <tr> <td>Cardiovascular</td> <td>No</td> <td></td> <td></td> </tr>
-                                   <tr> <td>Diabetes</td> <td>No</td> <td></td> <td></td> </tr>
-                     </tbody>              
-                  </table>
+  <table name="HISTORIA FAMILIAR">
+      <thead>
+        <tr> <th>Patologia</th> <th>Presenta</th> <th>Descripcion</th><th>Parentesco Familiar</th></tr>
+      </thead>
+       <tbody>
+                    <tr> <td>Otros</td> <td>No</td> <td></td> <td></td> </tr>
+                    <tr> <td>Digstivo</td> <td>No</td> <td></td> <td></td> </tr>
+                    <tr> <td>mentales</td> <td>No</td> <td></td> <td></td> </tr>
+                    <tr> <td>Neurologicos</td> <td>No</td> <td></td> <td></td> </tr>
+                    <tr> <td>Reumatologicos</td> <td>No</td> <td></td> <td></td> </tr>
+                    <tr> <td>TBC</td> <td>No</td> <td></td> <td></td> </tr>
+                    <tr> <td>Respiratorios</td> <td>No</td> <td></td> <td></td> </tr>
+                    <tr> <td>Cancer</td> <td>No</td> <td></td> <td></td> </tr>
+                    <tr> <td>Cardiovascular</td> <td>No</td> <td></td> <td></td> </tr>
+                    <tr> <td>Diabetes</td> <td>No</td> <td></td> <td></td> </tr>
+      </tbody>              
+   </table>
 	  </section>
 	  
 	  <section classCode="DOCSECT">
@@ -86,14 +86,14 @@
 	    <text mediaType="text/x-hl7-text+xml">
         <table name="ALERGICOS">
             <thead>
-                 <tr> <th>Alergicos</th> <th>Niegas/Si</th> <th>Descripcion</th></tr>
+  <tr> <th>Alergicos</th> <th>Niegas/Si</th> <th>Descripcion</th></tr>
             </thead>
             <tbody>
-                         <tr> <td>Asma</td> <td>No</td> <td></td> </tr>
-                         <tr> <td>Rinitis</td> <td>No</td> <td></td>  </tr>
-                         <tr> <td>Dermatitis</td> <td>No</td> <td></td>  </tr>
-                         <tr> <td>Urticaria</td> <td>No</td> <td></td>  </tr>
-                         <tr> <td>Otros Alergicos</td> <td>No</td> <td></td>  </tr>
+          <tr> <td>Asma</td> <td>No</td> <td></td> </tr>
+          <tr> <td>Rinitis</td> <td>No</td> <td></td>  </tr>
+          <tr> <td>Dermatitis</td> <td>No</td> <td></td>  </tr>
+          <tr> <td>Urticaria</td> <td>No</td> <td></td>  </tr>
+          <tr> <td>Otros Alergicos</td> <td>No</td> <td></td>  </tr>
            </tbody>              
         </table>
 
@@ -102,13 +102,13 @@
                <tr> <th>CARDIOVASCULAR RESPIRATORIO </th> <th>Niegas/Si</th> <th>Descripcion</th></tr>
           </thead>
           <tbody>
-                       <tr> <td>HIPERTENCION</td> <td>No</td> <td></td> </tr>
-                       <tr> <td>INFARTO</td> <td>No</td> <td></td>  </tr>
-                       <tr> <td>ANGINA</td> <td>No</td> <td></td>  </tr>
-                       <tr> <td>EPOC</td> <td>No</td> <td></td>  </tr>
-                       <tr> <td>BRONQUITIS</td> <td>No</td> <td></td>  </tr>
-                       <tr> <td>ASMA</td> <td>No</td> <td></td>  </tr>
-                       <tr> <td>OTROS CARDIOVASCULAR RESPIRATORIO</td> <td>No</td> <td></td>  </tr>
+        <tr> <td>HIPERTENCION</td> <td>No</td> <td></td> </tr>
+        <tr> <td>INFARTO</td> <td>No</td> <td></td>  </tr>
+        <tr> <td>ANGINA</td> <td>No</td> <td></td>  </tr>
+        <tr> <td>EPOC</td> <td>No</td> <td></td>  </tr>
+        <tr> <td>BRONQUITIS</td> <td>No</td> <td></td>  </tr>
+        <tr> <td>ASMA</td> <td>No</td> <td></td>  </tr>
+        <tr> <td>OTROS CARDIOVASCULAR RESPIRATORIO</td> <td>No</td> <td></td>  </tr>
          </tbody>
         </table>
 
@@ -117,10 +117,10 @@
                <tr> <th>DIGESTIVAS</th> <th>Niegas/Si</th> <th>Descripcion</th></tr>
           </thead>
           <tbody>
-                       <tr> <td>GASTRITIS</td> <td>No</td> <td></td> </tr>
-                       <tr> <td>ULCERAS</td> <td>No</td> <td></td>  </tr>
-                       <tr> <td>COLITIS</td> <td>No</td> <td></td>  </tr>
-                       <tr> <td>OTRAS DIGESTIVAS</td> <td>No</td> <td></td>  </tr>
+        <tr> <td>GASTRITIS</td> <td>No</td> <td></td> </tr>
+        <tr> <td>ULCERAS</td> <td>No</td> <td></td>  </tr>
+        <tr> <td>COLITIS</td> <td>No</td> <td></td>  </tr>
+        <tr> <td>OTRAS DIGESTIVAS</td> <td>No</td> <td></td>  </tr>
 
          </tbody>
         </table>
@@ -130,11 +130,11 @@
                <tr> <th>EDOCRINOS METABOLICOS</th> <th>Niegas/Si</th> <th>Descripcion</th></tr>
           </thead>
           <tbody>
-                       <tr> <td>DISLIPIDEMIA</td> <td>No</td> <td></td> </tr>
-                       <tr> <td>DIABETES</td> <td>No</td> <td></td>  </tr>
-                       <tr> <td>ENF. TIROIDEAS</td> <td>No</td> <td></td>  </tr>
-                       <tr> <td>OBESIDAD</td> <td>No</td> <td></td>  </tr>
-                       <tr> <td>OTRAS EDOCRINOS METABOLICOS</td> <td>No</td> <td></td>  </tr>
+        <tr> <td>DISLIPIDEMIA</td> <td>No</td> <td></td> </tr>
+        <tr> <td>DIABETES</td> <td>No</td> <td></td>  </tr>
+        <tr> <td>ENF. TIROIDEAS</td> <td>No</td> <td></td>  </tr>
+        <tr> <td>OBESIDAD</td> <td>No</td> <td></td>  </tr>
+        <tr> <td>OTRAS EDOCRINOS METABOLICOS</td> <td>No</td> <td></td>  </tr>
 
          </tbody>
         </table>
@@ -145,7 +145,7 @@
                <tr> <th>HEMATOLOGICAS</th> <th>Niegas/Si</th> <th>Descripcion</th></tr>
           </thead>
           <tbody>
-                       <tr> <td>HEMATOLOGICAS</td> <td>No</td> <td></td> </tr>
+        <tr> <td>HEMATOLOGICAS</td> <td>No</td> <td></td> </tr>
          </tbody>
         </table>
 
@@ -154,12 +154,12 @@
                <tr> <th>INFECCIOSAS</th> <th>Niegas/Si</th> <th>Descripcion</th></tr>
           </thead>
           <tbody>
-                       <tr> <td>ETS</td> <td>No</td> <td></td> </tr>
-                       <tr> <td>TBC</td> <td>No</td> <td></td>  </tr>
-                       <tr> <td>HEPATITIS</td> <td>No</td> <td></td>  </tr>
-                       <tr> <td>ZOONOSIS</td> <td>No</td> <td></td>  </tr>
-                       <tr> <td>ADMIDALITIS CRONICA</td> <td>No</td> <td></td>  </tr>
-                       <tr> <td>OTRAS</td> <td>No</td> <td></td>  </tr>
+        <tr> <td>ETS</td> <td>No</td> <td></td> </tr>
+        <tr> <td>TBC</td> <td>No</td> <td></td>  </tr>
+        <tr> <td>HEPATITIS</td> <td>No</td> <td></td>  </tr>
+        <tr> <td>ZOONOSIS</td> <td>No</td> <td></td>  </tr>
+        <tr> <td>ADMIDALITIS CRONICA</td> <td>No</td> <td></td>  </tr>
+        <tr> <td>OTRAS</td> <td>No</td> <td></td>  </tr>
 
          </tbody>
         </table>
@@ -169,7 +169,7 @@
                <tr> <th>MEDICAMENTOS</th> <th>Niegas/Si</th> <th>Descripcion</th></tr>
           </thead>
           <tbody>
-                       <tr> <td>MEDICAMENTOS</td> <td>No</td> <td></td> </tr>
+        <tr> <td>MEDICAMENTOS</td> <td>No</td> <td></td> </tr>
          </tbody>
         </table>
 
@@ -178,10 +178,10 @@
                <tr> <th>NEUROLOGICA MENTAL</th> <th>Niegas/Si</th> <th>Descripcion</th></tr>
           </thead>
           <tbody>
-                       <tr> <td>EPILEPSIA </td><td>No</td> <td></td> </tr>
-                       <tr> <td>MIGRAÑA CEFALEAS</td> <td>No</td> <td></td>  </tr>
-                       <tr> <td>PSIQUIATRICAS</td> <td>No</td> <td></td>  </tr>
-                       <tr> <td>VERTIGO OTRAS</td> <td>No</td> <td></td>  </tr>
+        <tr> <td>EPILEPSIA </td><td>No</td> <td></td> </tr>
+        <tr> <td>MIGRAÑA CEFALEAS</td> <td>No</td> <td></td>  </tr>
+        <tr> <td>PSIQUIATRICAS</td> <td>No</td> <td></td>  </tr>
+        <tr> <td>VERTIGO OTRAS</td> <td>No</td> <td></td>  </tr>
          </tbody>
         </table>
 
@@ -195,15 +195,15 @@
            <text mediaType="text/x-hl7-text+xml">
              <table>     
                <tbody>
-                 <tr>
-                   <td>TABAQUISMO</td><td>NO</td><td>TIPO TABAQUISMO:</td><td> </td>
-                 </tr>
-                 <tr>
-                   <td>AÑOS TABAQUISMO:</td><td> </td><td> </td><td> </td>
-                 </tr>
-                 <tr>
-                   <td>EX FUMADOR:</td><td>SI</td><td>DEJO DE FUMAR (AÑOS):</td><td>>10</td>
-                 </tr>                             
+  <tr>
+    <td>TABAQUISMO</td><td>NO</td><td>TIPO TABAQUISMO:</td><td> </td>
+  </tr>
+  <tr>
+    <td>AÑOS TABAQUISMO:</td><td> </td><td> </td><td> </td>
+  </tr>
+  <tr>
+    <td>EX FUMADOR:</td><td>SI</td><td>DEJO DE FUMAR (AÑOS):</td><td>>10</td>
+  </tr>                             
                </tbody>
              </table>    
            </text>   
@@ -215,9 +215,9 @@
           <text mediaType="text/x-hl7-text+xml">
             <table>     
               <tbody>
-                <tr>
-                  <td>Licor</td><td>NO</td><td>Tipo de Licor:</td><td> </td>
-                </tr>                           
+ <tr>
+   <td>Licor</td><td>NO</td><td>Tipo de Licor:</td><td> </td>
+ </tr>                           
               </tbody>
             </table>    
           </text>   
@@ -230,9 +230,9 @@
           <text mediaType="text/x-hl7-text+xml">
             <table>     
               <tbody>
-                <tr>
-                  <td>Drogadiccion</td><td>NO</td><td>Tipo de droga:</td><td> </td>
-                </tr>                       
+ <tr>
+   <td>Drogadiccion</td><td>NO</td><td>Tipo de droga:</td><td> </td>
+ </tr>                       
               </tbody>
             </table>    
           </text>   
@@ -245,7 +245,7 @@
             <table>     
               <tbody>
                 <tr>
-                  <td>Habitos de ejercicio</td><td>SI</td><td>Cual?:</td><td>GIMNASIO</td>
+                    <td>Habitos de ejercicio</td><td>SI</td><td>Cual?:</td><td>GIMNASIO</td>
                 </tr>                       
                 <tr>
                   <td>Frecuencia Dias a la semana</td><td>3-4</td>
@@ -255,7 +255,97 @@
           </text>   
         </section>
         
+        <section classCode="DOCSECT">
+         <code code= "42010-9" codeSystemName="LOINC" displayName="Views && view PA"></code> 
+          <title>TÓRAX</title>
+           <text mediaType="text/x-hl7-text+xml">
+            <table>
+              <thead>
+                 <tr><td>3.1 TÓRAX</td><td>ESTADO</td><td>DESCRIPCIÓN</td></tr>      
+              </thead>
+                            
+                <tbody><tr><td>INSPECCIÓN</td><td>NORMAL</td><td> </td></tr>
+                       <tr><td>PALPACIÓN</td><td>NORMAL</td><td> </td></tr>                     
+                </tbody>
+                  <thead>
+                      <tr><td>3.2 PULMONAR</td><td>ESTADO</td><td>DESCRIPCIÓN</td></tr>      
+                  </thead>
+                  <tbody><td>PERCUSIÓN</td><td>NORMAL</td><td> </td></tr>
+                         <tr> <td>AUSCULTACIÓN</td> <td>NORMAL</td><td> </td>
+                          </tr>                     
+                   </tbody>
+                            
+                   <thead>
+                     <tr><td>3.3 GLANDULA MAMARIA</td><td>ESTADO</td><td>DESCRIPCIÓN</td></tr>      
+                   </thead>
+                            
+                   <tbody>
+                      <tr><td>INSPECCIÓN</td><td>NORMAL</td><td> </td></tr>
+                      <tr><td>PALPACIÓN</td><td>NORMAL</td><td> </td></tr> 
+                      <tr><td>PEZONES</td><td>NORMAL</td> <td> </td></tr> 
+                      <tr><td>CICATRICES</td><td>NORMAL</td><td> </td></tr> 
+                      <tr><td>SECRECIÓN</td><td>NORMAL</td><td> </td></tr> 
+                  </tbody>
+                            
+                 <thead>
+                    <tr><td>3.4 CORAZÓN</td><td>ESTADO</td><td>DESCRIPCIÓN</td></tr>      
+                </thead>
+                <tbody>
+                  <tr><td>P.M.I.</td><td>NORMAL</td><td> </td></tr>
+                  <tr><td>RITMO</td><td>NORMAL</td><td> </td></tr>  
+                  <tr><td>RUIDOS</td><td>NORMAL</td><td> </td></tr> 
+                  <tr><td>SOPLOS</td><td>NORMAL</td><td> </td></tr> 
+                </tbody>
+                            
+               </table>    
+              </text>   
+        </section>
+
+      <section classCode="DOCSECT">
+            <code code= "87863-7" codeSystemName="LOINC" displayName="Multisection^WO contrast && Multisection^W contrast IV"></code> 
+            <title>ABDOMEN</title>
+              <text mediaType="text/x-hl7-text+xml">
+                <table>
+                  <thead>
+                    <tr><td>4.1 ABDOMEN</td><td>ESTADO</td><td>DESCRIPCIÓN</td></tr>      
+                  </thead>
+                                      
+                <tbody>
+                <tr><td>INSPECCIÓN</td><td>NORMAL</td><td> </td></tr>
+                <tr><td>PALPACIÓN (MEGALIAS)</td><td>NORMAL</td><td></td></tr>   
+                <tr><td>PERCUSIÓN</td><td>NORMAL</td><td> </td></tr> 
+                <tr><td>AUSCULTACIÓN</td><td>NORMAL</td><td> </td></tr> 
+                <tr><td>MASAS</td><td>NORMAL</td><td> </td></tr> 
+                <tr><td>HERNIAS</td><td>NORMAL</td><td> </td></tr> 
+                </tbody>
+              </table>    
+              </text>   
+       </section>
+
+      <section classCode="DOCSECT">
+        <code code= "38061-8" codeSystemName="LOINC" displayName="Multisection^W contrast IV"></code> 
+        <title>COLUMNA VERTEBRAL</title>
+        <text mediaType="text/x-hl7-text+xml">
+            <table>
+                <thead>
+                    <tr><td>5.1 FUERZA DE MÚSCULOS ABDOMINALES</td><td>ESTADO</td><td>DESCRIPCIÓN</td></tr>      
+                </thead>
+                
+                <tbody>
+                    <tr><td>FUERZA DE MÚSCULOS ABDOMINALES</td><td>NORMAL</td><td> </td></tr>
+                </tbody>
+
+                <thead>
+                  <td>5.2 FUERZA DE MÚSCULOS DORSALES</td><td>ESTADO</td><td>DESCRIPCIÓN</td></tr>      
+                </thead>
+                <tbody>
+                    <tr><td>FUERZA DE MÚSCULOS DORSALES</td><td>NORMAL</td><td> </td></tr>
+                </tbody>
+            </table>    
+        </text>   
+      </section>
         
+<<<<<<< HEAD
         <section classCode="DOCSECT">
           <code code= "65398-0" codeSystemName="LOINC" displayName=""></code> 
           <title>LESIONES DEPORTIVAS</title>
@@ -353,8 +443,100 @@
           
         </section>
       </component>
+=======
+            
+      <section classCode="DOCSECT">
+        <code code= "45645-9" codeSystemName="LOINC" displayName="Peripheral vascular disease"></code> 
+        <title>VASCULAR PERIFÉRICO</title>
+        <text mediaType="text/x-hl7-text+xml">
+        <table>
+            <thead>
+              <tr><td>6.1 VASCULAR PERFÉRICO</td><td>ESTADO</td><td>DESCRIPCIÓN</td></tr>      
+            </thead>
+            <tbody><tr><td>PULZOS PERFÉRICO</td><td>NORMAL</td><td> </td></tr>
+                  <tr> <td>VÁRICES</td><td>NO SE OBSERVA</td><td></td></tr>
+            </tbody>
+          </table>    
+          </text>   
+        </section> 
 
+        <section classCode="DOCSECT">
+            <code code= "45351-4" codeSystemName="LOINC" displayName="Date of skin test"></code> 
+            <title>GENITO UNITARIO</title>
+              <text mediaType="text/x-hl7-text+xml">
+              <thead>
+                  <tr> <th>7.1 GENITOURINARIO</th> <th>ESTADO</th> <th>DESCRIPCIÓN</th></tr>
+              </thead>
+              <tbody>
+            <tr> <td>ETS</td> <td>No</td> <td></td> </tr>
+            <tr> <td>TBC</td> <td>No</td> <td></td>  </tr>
+            <tr> <td>HEPATITIS</td> <td>No</td> <td></td>  </tr>
+            <tr> <td>ZOONOSIS</td> <td>No</td> <td></td>  </tr>
+            <tr> <td>ADMIDALITIS CRONICA</td> <td>No</td> <td></td>  </tr>
+            <tr> <td>OTRAS</td> <td>No</td> <td></td>  </tr>
+>>>>>>> 0d3598715351bad20e5dbb40c38c8412225f39ce
 
+            </tbody>
+            </table>
+          </text>
+        </section>
+
+          <section classCode="DOCSECT">
+              <code code= "45351-4" codeSystemName="LOINC" displayName="Date of skin test"></code> 
+              <title>PIEL Y FANERAS</title>
+                <text mediaType="text/x-hl7-text+xml">
+                <table> 
+                  <thead>
+                    <tr><td>8.1 PIEL Y FANERAS</td><td>ESTADO</td><td>DESCRIPCIÓN</td></tr>      
+                  </thead>
+                                  
+                  <tbody>
+                  <tr><td>CICATRICES</td><td>NORMAL</td><td> </td></tr>
+                  <tr><td>TATUAJES</td><td>NORMAL</td><td> </td></tr>
+                  <tr><td>NEVUS</td><td>NORMAL</td><td> </td></tr>
+                  <tr><td>ACNE</td><td>NORMAL</td><td> </td></tr>
+                  <tr> <td>DERMATOSIS</td><td>NORMAL</td><td> </td></tr>
+                  <tr><td>OTRAS PIEL Y FANERAS</td><td>NORMAL</td><td> </td></tr>
+                  </tbody>
+                </table>    
+          </text>   
+        </section>
+        <section classCode="DOCSECT">
+            <code code= "80314-8" codeSystemName="LOINC" displayName="Neurological assessment"></code>
+            <title></title>
+            <text mediaType="text/x-hl7-text+xml">
+              <table>
+                <thead>
+                    <tr> <th>9.1Neurologico</th> <th>ESTADO</th> <th>Descripcion</th></tr>
+                </thead>
+                <tbody>
+              <tr> <td>REFLEJOS</td><td>Normal</td> <td></td> </tr>
+              <tr> <td>COORDINACION</td> <td>Normal</td> <td></td>  </tr>
+              <tr> <td>TONICIDAD</td> <td>Normal</td> <td></td>  </tr>
+              <tr> <td>SENSIBILIDAD</td> <td>Normal</td> <td></td>  </tr>
+              <tr> <td>MOTILIDAD</td> <td>Normal</td> <td></td>  </tr>
+              </tbody>
+              </table>
+        </section>
+
+        <section classCode="DOCSECT">
+                <code code= "8716-3" codeSystemName="LOINC" displayName="VITAL SIGNES"></code> 
+                <title>SIGNOS VITALES</title>
+                <text mediaType="text/x-hl7-text+xml">
+                  <table>
+                    <thead>
+                        <tr><td>Peso (Kg)</td><td>IMC:</td><td>T.A</td><td> Estatura(mts)</td><td>Pulso</td><td>F.R</td></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>59</td><td>25,54</td><td>150/100</td><td>1,52</td><td>66</td><td>16</td></tr>
+                    </tbody>
+                  </table>            
+                </text>                  
+        </section>       
+            
+
+ </component>
+      
 </structuredBody>
 </component>
 
