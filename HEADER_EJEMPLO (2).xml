@@ -503,7 +503,7 @@
         </section>
         <section classCode="DOCSECT">
             <code code= "80314-8" codeSystemName="LOINC" displayName="Neurological assessment"></code>
-            <title></title>
+            <title>NEUROLOGICO</title>
             <text mediaType="text/x-hl7-text+xml">
               <table>
                 <thead>
