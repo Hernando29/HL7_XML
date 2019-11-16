@@ -256,16 +256,14 @@
         </section>
 
         <section classCode="DOCSECT">
-                    <code code= "28631-0" codeSystemName="LOINC" displayName="VISUAL ACUITY STUDY"></code> 
-                    <title>EVALUACION DE LA AGUDEZA VISUAL</title>
-                    <text mediaType="text/x-hl7-text+xml">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <td colspan="3">AV SIN CORRECCION LEJOS</td>
-                                </tr>
+         <code code= "28631-0" codeSystemName="LOINC" displayName="VISUAL ACUITY STUDY"></code> 
+          <title>EVALUACION DE LA AGUDEZA VISUAL</title>
+           <text mediaType="text/x-hl7-text+xml">
+            <table>
+              <thead>
+                 <tr> <td colspan="3">AV SIN CORRECCION LEJOS</td></tr>
                                     
-                            </thead>
+              </thead>
                             <tbody>
                                 <tr>
                                     <td>ODT</td>
@@ -320,9 +318,7 @@
                             <thead>
                                 <tr>
                                     <td colspan="3">AV CON CORRECCION CERCA</td>
-                                </tr>
-                                
-                                
+                                </tr>      
                             </thead>
                             <tbody>
                                 <tr>
@@ -503,6 +499,106 @@
         </text>   
       </section>
         
+<<<<<<< HEAD
+        <section classCode="DOCSECT">
+          <code code= "65398-0" codeSystemName="LOINC" displayName=""></code> 
+          <title>LESIONES DEPORTIVAS</title>
+          <text mediaType="text/x-hl7-text+xml">
+            <table>     
+              <tbody>
+                <tr>
+                  <td>Lesiones deportivas</td><td>SI</td><td>Cual?:</td><td>LECCION DE RODILLA DERECHA</td>
+                </tr>                       
+              </tbody>
+            </table>    
+          </text>   
+        </section>
+        
+        
+        
+      
+      </component>
+      
+      
+      <component typeCode="COMP" contextConductionInd="true">
+        <title>EVALUACION POR SISTEMAS</title>
+        
+        <section classCode="DOCSECT">     
+          <code code= "72166-2" codeSystemName="LOINC" displayName="Tobacco smoking status"></code> 
+          <text mediaType="text/x-hl7-text+xml">
+            <table> 
+              <thead>
+                <tr> <td>SISTEMA</td> <td>Si/No</td> <td>Descripcion</td></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>PIEL Y ANEXOS</td><td>NO</td><td></td><
+                </tr>
+                <tr>
+                  <td>OSTEOMUSCULAR</td><td>NO</td><td> </td>
+                </tr>
+                <tr>
+                  <td>GENITOURINARIO</td><td>NO</td><td> </td>
+                </tr>
+                <tr>
+                  <td>GASTROINSTESTINAL</td><td>NO</td><td></td>
+                </tr>   
+                <tr>
+                  <td>METABOLICO Y ENDOCRINO</td><td>NO</td><td> </td>
+                </tr>
+                <tr>
+                  <td>CARDIO RESPIRATORIO</td><td>NO</td><td> </td>
+                </tr>
+                <tr>
+                  <td>NEUROLOGICO MENTAL</td><td>NO</td><td> </td>
+                </tr>
+                <tr>
+                  <td>O. DE LOS SENTIDOS</td><td>SI</td><td>USA GAFAS PARA VISION PROLONGADA</td>
+                </tr>
+              </tbody>
+            </table>    
+          </text>   
+        </section>
+        
+      </component>
+      
+      <component typeCode="COMP" contextConductionInd="true">
+      
+        <section classCode="DOCSECT">
+          <code code= "8716-3" codeSystemName="LOINC" displayName="VITAL SIGNES"></code> 
+          <title>SIGNOS VITALES</title>
+            <text mediaType="text/x-hl7-text+xml">
+              <table>
+                <thead>
+                  <tr>
+                    <td>Peso (Kg)</td>
+                    <td>IMC:</td>
+                    <td>T.A</td>
+                    <td> Estatura (Mts)</td>
+                    <td>Pulso</td>
+                    <td>F.R</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>59</td>
+                    <td>25,54</td>
+                    <td>150/100</td>
+                    <td>1,52</td>
+                    <td>66</td>
+                    <td>16</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+            </text>
+          
+          
+        </section>
+      </component>
+      
+      <component typeCode="COMP" contextConductionInd="true">
             
       <section classCode="DOCSECT">
         <code code= "45645-9" codeSystemName="LOINC" displayName="Peripheral vascular disease"></code> 
@@ -561,7 +657,7 @@
         </section>
         <section classCode="DOCSECT">
             <code code= "80314-8" codeSystemName="LOINC" displayName="Neurological assessment"></code>
-            <title></title>
+            <title>NEUROLOGICO</title>
             <text mediaType="text/x-hl7-text+xml">
               <table>
                 <thead>
@@ -576,6 +672,7 @@
               </tbody>
               </table>
         </section>
+<<<<<<< HEAD
 </component>
         <section classCode="DOCSECT">
                 <code code= "8716-3" codeSystemName="LOINC" displayName="VITAL SIGNES"></code> 
@@ -592,6 +689,9 @@
                 </text>                  
         </section>       
             
+=======
+
+>>>>>>> a0838bc188422b7b3ba45c3ee0fc8bd2a89d3703
 
  </component>
 </structuredBody>
