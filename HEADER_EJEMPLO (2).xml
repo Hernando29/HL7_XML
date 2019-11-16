@@ -518,9 +518,30 @@
               </tbody>
               </table>
         </section>
+ 
 
 
  </component>
+      
+      
+      <component typeCode="COMP" contextConductionInd="true">
+        <section classCode="DOCSECT">
+          <code code= "67183-4" codeSystemName="LOINC" displayName="Diagnostic or staging procedure"></code>
+          <title>DIAGNOSTICO</title>
+            <entry>
+              <table>
+                <tbody>
+                  <tr><td>Tipo DX Principal</td><td>IMPRESIÓN DIAGNOSTICA</td></tr>
+                  <tr><td>DX Principal</td><td>TRASTORNO DE LA REFRACCIÓN, NO ESPECIFICADO</td></tr>
+                  <tr><td>DX Relacional 1</td><td>AUMENTO ANORMAL DE PESO</td></tr>
+                  <tr><td>DX Relacional 2</td><td>OTRAS ENFERMEDADES PERIODONTALES</td></tr>
+                  <tr><td>DX Relacional 3</td><td></td></tr>  
+                </tbody>
+              </table>
+            </entry>
+        </section>
+        
+      </component>
       
 </structuredBody>
 </component>
