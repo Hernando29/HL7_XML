@@ -254,6 +254,161 @@
             </table>    
           </text>   
         </section>
+
+        <section classCode="DOCSECT">
+         <code code= "28631-0" codeSystemName="LOINC" displayName="VISUAL ACUITY STUDY"></code> 
+          <title>EVALUACION DE LA AGUDEZA VISUAL</title>
+           <text mediaType="text/x-hl7-text+xml">
+            <table>
+              <thead>
+                 <tr> <td colspan="3">AV SIN CORRECCION LEJOS</td></tr>
+                                    
+              </thead>
+                            <tbody>
+                                <tr>
+                                    <td>ODT</td>
+                                    <td>OI</td>
+                                    <td>AO</td>
+                                </tr>
+                                <tr>
+                                    <td>20/200</td>
+                                    <td>20/200</td>
+                                    <td>20/0</td>
+                                </tr>
+                            </tbody>
+                            
+                            <thead>
+                                <tr>
+                                    <td colspan="3">AV SIN CORRECCION CERCA</td>
+                                </tr>
+                                
+                                
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>ODT</td>
+                                    <td>OI</td>
+                                    <td>AO</td>
+                                </tr>
+                                <tr>
+                                    <td>20/200</td>
+                                    <td>20/200</td>
+                                    <td>20/200</td>
+                                </tr>
+                            </tbody>
+                            <thead>
+                                <tr>
+                                    <td colspan="3">AV CON CORRECCION LEJOS</td>
+                                </tr>
+                                
+                                
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>ODT</td>
+                                    <td>OI</td>
+                                    <td>AO</td>
+                                </tr>
+                                <tr>
+                                    <td>20/200</td>
+                                    <td>20/200</td>
+                                    <td>20/0</td>
+                                </tr>
+                            </tbody>
+                            <thead>
+                                <tr>
+                                    <td colspan="3">AV CON CORRECCION CERCA</td>
+                                </tr>      
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>ODT</td>
+                                    <td>OI</td>
+                                    <td>AO</td>
+                                </tr>
+                                <tr>
+                                    <td>20/50</td>
+                                    <td>20/50</td>
+                                    <td>20/40</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+        </section>
+
+  <section classCode="DOCSECT">
+  <code code= "90352-6" codeSystemName="LOINC" displayName="Multisection^WO & W contrast IV"></code> 
+    <title>CABEZA</title>
+    <text mediaType="text/x-hl7-text+xml">
+     <table>
+                            
+     <thead><tr><td>1.1 OJOS</td><td>ESTADO</td><td>DESCRIPCIÓN</td></tr>      </thead>
+                            
+     <tbody>
+       <tr><td>PARPADOS</td><td>NORMAL</td><td> </td></tr>
+       <tr><td>CONJUNTIVA</td><td>NORMAL</td><td></td> </tr>
+       <tr><td>ESCLERAS</td><td>NORMAL</td><td> </td></tr>
+       <tr><td>CÓRNEA</td><td>NORMAL</td><td> </td></tr>
+       <tr><td>IRIS-PUPILAS</td><td>NORMAL</td><td> </td></tr>
+       <tr><td>FONDO DE OJO</td><td>NO EXAMINADAO</td><td> </td></tr>
+     </tbody>
+                            
+     <thead>
+        <tr><td>1.2 OÍDOS</td><td>ESTADO</td><td>DESCRIPCIÓN</td></tr>      
+    </thead>
+    <tbody><tr><td>PABELLONES</td><td>NORMAL</td><td> </td></tr>
+           <tr><td>CONDUCTOS</td><td>NORMAL</td><td> </td></tr>
+          <tr><td>TÍMPANOS</td><td>NORMAL</td><td> </td></tr>
+    </tbody>
+                            
+    <thead>
+      <tr><td>1.3 NARIZ</td><td>ESTADO</td><td>DESCRIPCIÓN</td></tr>      
+    </thead>
+    <tbody><tr><td>MUCOSA</td><td>NORMAL</td><td> </td></tr>
+          <tr><td>TABIQUE</td><td>RECTO</td><td> </td></tr>
+          <tr><td>CORNETES</td><td>NORMAL</td><td> </td></tr>
+          <tr><td>SENOS PARANASALES</td><td>NORMAL</td><td> </td></tr>
+    </tbody>
+                            
+    <thead>
+      <tr><td>1.4 BOCA</td><td>ESTADO</td><td>DESCRIPCIÓN</td></tr>      
+    </thead>
+                            
+     <tbody><tr><td>PALADAR</td>td>NORMAL</td><td> </td></tr>
+           <tr><td>MUCOSAS</td><td>NORMAL</td><td> </td></tr>
+          <tr><td>LENGUA</td><td>NORMAL</td><td> </td></tr>
+          <tr> <td>DENTADURA</td><td>ANORMAL</td><td>CALCULOS DENTALES</td></tr>
+    </tbody>
+                            
+    <thead>
+        <tr><td>1.5 OROFARINGE</td><td>ESTADO</td><td>DESCRIPCIÓN</td></tr>      
+    </thead>
+                            
+    <tbody><tr><td>AMÍGDALAS</td><td>NORMAL</td><td> </td></tr>
+          <tr><td>FARINGE</td> <td>NORMAL</td><td> </td> </tr>
+    </tbody>
+    </table>    
+  </text>   
+  </section>
+      <section classCode="DOCSECT">
+        <code code= "88320-7" codeSystemName="LOINC" displayName="Multisection^W contrast IV"></code> 
+        <title>CUELLO</title>
+        <text mediaType="text/x-hl7-text+xml">
+         <table>
+                            
+          <thead>
+            <tr><td>2.1 CUELLO</td><td>ESTADO</td><td>DESCRIPCIÓN</td></tr>      
+          </thead>
+                            
+          <tbody>
+           <tr> <td>INSPECCIÓN</td> <td>NORMAL</td><td> </td></tr>
+           <tr><td>PALPACIÓN</td><td>NORMAL</td><td> </td></tr>
+           <tr><td>ADENOPATÍAS</td><td>NO PALPABLE</td><td> </td></tr>
+            <tr><td>GLÁNDULA TIROIDES</td><td>NORMAL</td><td> </td> </tr>                             
+          </tbody>
+         </table>    
+        </text>   
+       </section>
         
         <section classCode="DOCSECT">
          <code code= "42010-9" codeSystemName="LOINC" displayName="Views && view PA"></code> 
@@ -270,9 +425,8 @@
                   <thead>
                       <tr><td>3.2 PULMONAR</td><td>ESTADO</td><td>DESCRIPCIÓN</td></tr>      
                   </thead>
-                  <tbody><td>PERCUSIÓN</td><td>NORMAL</td><td> </td></tr>
-                         <tr> <td>AUSCULTACIÓN</td> <td>NORMAL</td><td> </td>
-                          </tr>                     
+                  <tbody><tr><td>PERCUSIÓN</td><td>NORMAL</td><td> </td></tr>
+                         <tr> <td>AUSCULTACIÓN</td> <td>NORMAL</td><td> </td></tr>                     
                    </tbody>
                             
                    <thead>
@@ -281,7 +435,7 @@
                             
                    <tbody>
                       <tr><td>INSPECCIÓN</td><td>NORMAL</td><td> </td></tr>
-                      <tr><td>PALPACIÓN</td><td>NORMAL</td><td> </td></tr> 
+                      <tr><td>PALPACIÓN</td><td>NORMAL/AUTOEXAMEN</td><td> </td></tr> 
                       <tr><td>PEZONES</td><td>NORMAL</td> <td> </td></tr> 
                       <tr><td>CICATRICES</td><td>NORMAL</td><td> </td></tr> 
                       <tr><td>SECRECIÓN</td><td>NORMAL</td><td> </td></tr> 
@@ -294,7 +448,7 @@
                   <tr><td>P.M.I.</td><td>NORMAL</td><td> </td></tr>
                   <tr><td>RITMO</td><td>NORMAL</td><td> </td></tr>  
                   <tr><td>RUIDOS</td><td>NORMAL</td><td> </td></tr> 
-                  <tr><td>SOPLOS</td><td>NORMAL</td><td> </td></tr> 
+                  <tr><td>SOPLOS</td><td>NO AUDIBLES</td><td> </td></tr> 
                 </tbody>
                             
                </table>    
@@ -345,7 +499,7 @@
         </text>   
       </section>
         
-<<<<<<< HEAD
+
         <section classCode="DOCSECT">
           <code code= "65398-0" codeSystemName="LOINC" displayName=""></code> 
           <title>LESIONES DEPORTIVAS</title>
@@ -518,10 +672,25 @@
               </tbody>
               </table>
         </section>
- 
 
-
+</component>
+        <section classCode="DOCSECT">
+                <code code= "8716-3" codeSystemName="LOINC" displayName="VITAL SIGNES"></code> 
+                <title>SIGNOS VITALES</title>
+                <text mediaType="text/x-hl7-text+xml">
+                  <table>
+                    <thead>
+                        <tr><td>Peso (Kg)</td><td>IMC:</td><td>T.A</td><td> Estatura(mts)</td><td>Pulso</td><td>F.R</td></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>59</td><td>25,54</td><td>150/100</td><td>1,52</td><td>66</td><td>16</td></tr>
+                    </tbody>
+                  </table>            
+                </text>                  
+        </section>       
+            
  </component>
+
       
       
       <component typeCode="COMP" contextConductionInd="true">
@@ -543,7 +712,10 @@
         
       </component>
       
+
 </structuredBody>
+
+
 </component>
 
     
